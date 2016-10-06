@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 echo "My first PHP script!";
 if ($_GET['run']) {
@@ -9,6 +5,3 @@ if ($_GET['run']) {
   exec("./test.sh");
 }
 ?>
-
-</body>
-</html>
