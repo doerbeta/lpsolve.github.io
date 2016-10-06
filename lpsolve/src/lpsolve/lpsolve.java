@@ -7,11 +7,13 @@ package lpsolve;
 
 import java.applet.*;
 import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+//import java.awt.event.*;
+//import javax.swing.*;
 
 public class lpsolve extends Applet {
 
+	private static final long serialVersionUID = 3198840077397826916L;
+	
 	private TextArea input;
 	private TextArea output;
 	
