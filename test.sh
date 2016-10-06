@@ -1,1 +1,1 @@
-lps test.txt
+lps test.txt >> test.out
