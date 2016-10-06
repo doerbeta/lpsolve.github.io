@@ -12,16 +12,25 @@ import javax.swing.*;
 
 public class lpsolve extends Applet {
 
-	private JTextArea input;
-	private JTextArea output;
-	private String in;
-	private String out;
+	private TextArea input;
+	private TextArea output;
+	
+//	private JTextArea input;
+//	private JTextArea output;
+//	private String in;
+//	private String out;
+//	private TextField temp;
 
 	public void init () {
 
 		// Construct the TextFields
-		this.input = new JTextArea(10, 40);
-		this.output = new JTextArea(10, 40);
+//		this.input = new JTextArea(10, 40);
+//		this.output = new JTextArea(10, 40);
+
+		this.input = new TextArea(10, 40);
+		this.output = new TextArea(10, 40);
+
+		
 		this.output.setEditable(false);
 		Button b = new Button("Let's solve LP!!");
 
@@ -34,15 +43,22 @@ public class lpsolve extends Applet {
 		// button or the input TextField should be handled 
 		// by the same CapitalizerAction object
 
-		in = input.getText();
-		out = output.getText();
+//		this.in = input.getText();
+//		this.out = output.getText();
+//		this.temp = new TextField(1000);
+//		this.temp.setText(in);
 		
-		lpsolveAction ca = new lpsolveAction(in, out);
-		b.addActionListener(ca);
-		.ActionListener(ca);
-		
-	    output.setText(out);
+//		lpsolveAction lp = new lpsolveAction(in, out);
+//		b.addActionListener(lp);
+//		this.temp.addActionListener(lp);
+//		
+//	    this.output.setText(out);
 
+		lpsolveAction lp = new lpsolveAction(input, output);
+	     b.addActionListener(lp);
+//	     this.input.addActionListener(lp);
+
+		
 		// notice that ActionEvents produced by output are ignored.
 
 	}
