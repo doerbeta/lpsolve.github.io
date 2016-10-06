@@ -1,4 +1,4 @@
-# lpsolveGUI
+# lpsolve.github.io
 
 ## A website for a Java-based GUI for Linear Programming Solver  
 
