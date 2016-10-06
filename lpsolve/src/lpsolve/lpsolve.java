@@ -1,4 +1,10 @@
+// A GUI for Linear Programming Solver
+// by Baihan Lin
+// DoerLBH@gmail.com, University of Washington
+// October 2016
+
 package lpsolve;
+
 
 public class lpsolve {
 
