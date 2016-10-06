@@ -1,4 +1,8 @@
-package lpsolve;
+// A GUI for Linear Programming Solver
+// by Baihan Lin
+// DoerLBH@gmail.com, University of Washington
+// October 2016
+
 
 import java.awt.*;
 import java.awt.event.*;
